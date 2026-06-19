@@ -1,4 +1,4 @@
-# rhino-plugin-dev
+# rhino-dev-skills
 
 > A Claude Code plugin that gives Claude complete, hands-on knowledge for building **Rhino & Grasshopper plugins** with RhinoCommon (.NET / C#).
 
@@ -26,23 +26,23 @@ It bundles five domain skills covering the full plugin-development lifecycle —
 In any Claude Code session:
 
 ```
-/plugin marketplace add bcshih/rhino-plugin-dev
-/plugin install rhino-plugin-dev@rhino-plugin-dev
+/plugin marketplace add bcshih/rhino-dev-skills
+/plugin install rhino-dev-skills@rhino-dev-skills
 ```
 
-Run `/plugin` to confirm `rhino-plugin-dev` is listed and enabled.
+Run `/plugin` to confirm `rhino-dev-skills` is listed and enabled.
 
 ### Option B — Local install (clone first)
 
 ```bash
-git clone https://github.com/bcshih/rhino-plugin-dev.git
+git clone https://github.com/bcshih/rhino-dev-skills.git
 ```
 
 Then point Claude Code at the local folder:
 
 ```
-/plugin marketplace add /absolute/path/to/rhino-plugin-dev
-/plugin install rhino-plugin-dev@rhino-plugin-dev
+/plugin marketplace add /absolute/path/to/rhino-dev-skills
+/plugin install rhino-dev-skills@rhino-dev-skills
 ```
 
 ### Option C — Drop the skills in manually
@@ -59,11 +59,11 @@ Each subfolder (e.g. `rhinocommon-setup/`) becomes an available skill on the nex
 這是一個 **Claude Code 插件**，內含 Rhino/Grasshopper 開發的五個技能。在 Claude Code 中輸入：
 
 ```
-/plugin marketplace add bcshih/rhino-plugin-dev
-/plugin install rhino-plugin-dev@rhino-plugin-dev
+/plugin marketplace add bcshih/rhino-dev-skills
+/plugin install rhino-dev-skills@rhino-dev-skills
 ```
 
-輸入 `/plugin` 確認 `rhino-plugin-dev` 已啟用，重開 Claude Code 即可。之後只要在處理 Rhino/Grasshopper 的 C# 程式碼，Claude 會自動載入對應技能，不需手動呼叫。
+輸入 `/plugin` 確認 `rhino-dev-skills` 已啟用，重開 Claude Code 即可。之後只要在處理 Rhino/Grasshopper 的 C# 程式碼，Claude 會自動載入對應技能，不需手動呼叫。
 
 ## Skills
 
@@ -94,7 +94,7 @@ These are Claude Code **skills** — markdown knowledge files with trigger metad
 ## Repository layout
 
 ```
-rhino-plugin-dev/
+rhino-dev-skills/
 ├── .claude-plugin/
 │   ├── marketplace.json     # makes the repo installable via /plugin marketplace add
 │   └── plugin.json          # plugin manifest (name, version, description)

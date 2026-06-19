@@ -1,5 +1,5 @@
 {
-  "name": "rhino-plugin-dev",
+  "name": "rhino-dev-skills",
   "version": "0.1.0",
   "description": "Complete Rhino/Grasshopper plugin development capabilities — RhinoCommon geometry API, Grasshopper GH_Component & DataTree, Eto.Forms cross-platform UI, RhinoDoc object management, project setup and Yak packaging.",
   "author": {
