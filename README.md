@@ -2,6 +2,16 @@
 
 > A Claude Code plugin that gives Claude complete, hands-on knowledge for building **Rhino & Grasshopper plugins** with RhinoCommon (.NET / C#).
 
+### Why this exists
+
+Developing Rhino plugins means juggling RhinoCommon APIs, Grasshopper data trees, Eto.Forms quirks, and Yak packaging details all at once. Looking up the right class, method signature, or pattern mid-flow breaks concentration and slows everything down.
+
+This plugin embeds that domain knowledge directly into Claude Code. Once installed, Claude automatically has the right context — correct API usage, common pitfalls, working patterns — so you can **focus on what you're building, not on hunting through documentation**. The goals are simple:
+
+- **Faster development** — less time looking things up, more time writing code
+- **Fewer errors** — Claude knows the gotchas (e.g. DataTree access patterns, Eto thread safety, CommitChanges requirements) and applies them proactively
+- **Lower barrier to entry** — useful whether you're new to Rhino plugin development or an experienced developer who just wants quicker recall
+
 It bundles five domain skills covering the full plugin-development lifecycle — geometry, the document model, Grasshopper components, cross-platform UI, project setup and packaging. Once installed, Claude automatically pulls in the right skill whenever you work on Rhino/Grasshopper code.
 
 ## Requirements
@@ -102,6 +112,21 @@ rhino-plugin-dev/
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for release history.
+
+## Contributing
+
+Contributions are welcome and encouraged. The skills in this plugin will always be a work in progress — Rhino APIs evolve, and there are always more patterns, edge cases, and examples worth capturing.
+
+**Ways to contribute:**
+
+- **Fix an error** — if a skill has a wrong API signature, outdated pattern, or misleading example, open a PR with a correction.
+- **Improve coverage** — add examples, expand a references file, or document a pattern that isn't covered yet.
+- **Add a skill** — if there's a significant Rhino/Grasshopper domain not yet covered (e.g. Rhino.Render, RhinoMobile, CPython scripting), a new skill folder is welcome.
+- **Share your experience** — found a gotcha the skills don't warn about? Open an issue or submit a PR directly.
+
+Each skill lives in `skills/<skill-name>/SKILL.md` with optional deeper notes in `references/`. The format is plain Markdown — no build step, no toolchain required.
+
+If you've used this plugin in real plugin development and have corrections or additions based on hands-on experience, those contributions are especially valuable.
 
 ## Notice
 
