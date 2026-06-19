@@ -1,0 +1,18 @@
+{
+  "name": "rhino-plugin-dev",
+  "description": "Rhino/Grasshopper plugin development skills for Claude Code — RhinoCommon geometry, Grasshopper components, Eto.Forms UI, RhinoDoc objects, project setup & Yak packaging.",
+  "owner": {
+    "name": "bcshih"
+  },
+  "plugins": [
+    {
+      "name": "rhino-plugin-dev",
+      "source": "./",
+      "description": "Complete Rhino/Grasshopper plugin development capabilities — RhinoCommon geometry API, Grasshopper GH_Component & DataTree, Eto.Forms cross-platform UI, RhinoDoc object management, project setup and Yak packaging.",
+      "version": "0.1.0",
+      "author": {
+        "name": "bcshih"
+      }
+    }
+  ]
+}

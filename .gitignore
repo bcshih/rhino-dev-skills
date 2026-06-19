@@ -1,0 +1,16 @@
+# Claude Code plugin runtime artifacts
+.in_use/
+.gcs-sha
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
