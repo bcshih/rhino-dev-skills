@@ -103,6 +103,16 @@ rhino-plugin-dev/
 
 See [CHANGELOG.md](CHANGELOG.md) for release history.
 
+## Notice
+
+**AI-generated content.** The skills in this plugin were authored by [Claude Code](https://claude.ai/code) (Anthropic). Content was derived from the official Rhino developer documentation, the *Rhinoceros 軟體生態系統開發架構與跨平台插件建構權威指南* handbook, and the author's personal Rhino/Grasshopper development experience — which was used to guide, correct, and refine the AI's output.
+
+**Not an official product.** This plugin is an independent community project and is not affiliated with, endorsed by, or supported by Robert McNeel & Associates or Anthropic.
+
+**Trademarks.** Rhinoceros®, Grasshopper®, RhinoCommon, and the Rhino logo are trademarks of Robert McNeel & Associates. Claude™ and Claude Code™ are trademarks of Anthropic, PBC. All trademarks remain the property of their respective owners.
+
+**Accuracy.** The skills reflect documentation and experience available at the time of authoring. Rhino/RhinoCommon APIs evolve — always cross-check against the [latest McNeel developer docs](https://developer.rhino3d.com/) for production use.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

@@ -18,5 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `rhino-eto-ui` — Eto.Forms dialogs, dockable panels, `DynamicLayout`, `UseRhinoStyle`, UI thread safety.
 - `.claude-plugin/marketplace.json` so the repository is installable via `/plugin marketplace add`.
 - MIT `LICENSE`, `.gitignore`, and a `README.md` with installation instructions (English + 中文).
+- `NOTICE` file with attribution (AI-generated content, source references, third-party trademarks).
+- `## Notice` section in `README.md` covering AI authorship, non-affiliation, trademark ownership, and accuracy caveats.
 
 [0.1.0]: https://github.com/bcshih/rhino-plugin-dev/releases/tag/v0.1.0

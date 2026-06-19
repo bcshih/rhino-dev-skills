@@ -1,0 +1,53 @@
+rhino-plugin-dev
+Copyright (c) 2026 bcshih
+
+================================================================================
+ORIGIN OF CONTENT
+================================================================================
+
+The skill files in this repository were generated with Claude Code (claude.ai/code),
+an AI coding assistant developed by Anthropic, PBC.
+
+The knowledge content is derived from the following sources:
+
+  1. Official Rhino developer documentation
+     https://developer.rhino3d.com/
+
+  2. RhinoCommon SDK reference
+     https://developer.rhino3d.com/api/rhinocommon/
+
+  3. "Rhinoceros 軟體生態系統開發架構與跨平台插件建構權威指南" — a technical
+     handbook on Rhino/Grasshopper plugin architecture (Chapters 1–7).
+
+  4. The author's (bcshih) personal experience developing Rhino and Grasshopper
+     plugins, used to guide, review, and correct the AI-generated output.
+
+================================================================================
+THIRD-PARTY TRADEMARKS
+================================================================================
+
+The following trademarks are referenced in this software for identification
+purposes only. All trademarks remain the property of their respective owners.
+Use of these names does not imply any affiliation with or endorsement by their
+respective owners.
+
+  - Rhinoceros®, Grasshopper®, RhinoCommon, and the Rhino logo are trademarks
+    of Robert McNeel & Associates.
+
+  - Claude™ and Claude Code™ are trademarks of Anthropic, PBC.
+
+  - Eto.Forms is a cross-platform UI framework maintained by its respective
+    contributors (https://github.com/picoe/Eto).
+
+  - Microsoft®, .NET, and Visual Studio® are trademarks of Microsoft Corporation.
+
+================================================================================
+DISCLAIMER
+================================================================================
+
+This plugin is an independent community project. It is not affiliated with,
+endorsed by, or officially supported by Robert McNeel & Associates or Anthropic.
+
+Skill content reflects documentation and experience available at time of
+authoring. Rhino and RhinoCommon APIs evolve — cross-check against the latest
+official documentation for production use.
