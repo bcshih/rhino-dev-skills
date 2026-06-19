@@ -11,8 +11,6 @@ It bundles five domain skills covering the full plugin-development lifecycle —
 
 ## Installation
 
-> This is a **private** repository. Whoever installs it must first be granted read access on GitHub (added as a collaborator), and their local `git` must be authenticated (SSH key or GitHub credential manager).
-
 ### Option A — Install as a Claude Code marketplace (recommended)
 
 In any Claude Code session:
@@ -22,19 +20,12 @@ In any Claude Code session:
 /plugin install rhino-plugin-dev@rhino-plugin-dev
 ```
 
-If the `owner/repo` shorthand fails for the private repo, use the explicit git URL instead:
-
-```
-/plugin marketplace add git@github.com:bcshih/rhino-plugin-dev.git
-/plugin install rhino-plugin-dev@rhino-plugin-dev
-```
-
 Run `/plugin` to confirm `rhino-plugin-dev` is listed and enabled.
 
 ### Option B — Local install (clone first)
 
 ```bash
-git clone git@github.com:bcshih/rhino-plugin-dev.git
+git clone https://github.com/bcshih/rhino-plugin-dev.git
 ```
 
 Then point Claude Code at the local folder:
@@ -55,20 +46,14 @@ Each subfolder (e.g. `rhinocommon-setup/`) becomes an available skill on the nex
 
 ## 中文快速安裝
 
-這是一個 **Claude Code 插件**，內含 Rhino/Grasshopper 開發的五個技能。
+這是一個 **Claude Code 插件**，內含 Rhino/Grasshopper 開發的五個技能。在 Claude Code 中輸入：
 
-因為是 **private（私有）repo**，對方需先被你加入為 GitHub collaborator，且本機 `git` 已登入（SSH 金鑰或 GitHub 認證）。
+```
+/plugin marketplace add bcshih/rhino-plugin-dev
+/plugin install rhino-plugin-dev@rhino-plugin-dev
+```
 
-1. 在 Claude Code 中輸入：
-   ```
-   /plugin marketplace add bcshih/rhino-plugin-dev
-   /plugin install rhino-plugin-dev@rhino-plugin-dev
-   ```
-2. 輸入 `/plugin` 確認 `rhino-plugin-dev` 已啟用，重開 Claude Code 即可。
-
-之後只要在處理 Rhino/Grasshopper 的 C# 程式碼，Claude 會自動載入對應技能，不需手動呼叫。
-
-> 若 `owner/repo` 簡寫對私有 repo 無效，改用完整網址 `git@github.com:bcshih/rhino-plugin-dev.git`，或先 `git clone` 後用本機路徑安裝（Option B）。
+輸入 `/plugin` 確認 `rhino-plugin-dev` 已啟用，重開 Claude Code 即可。之後只要在處理 Rhino/Grasshopper 的 C# 程式碼，Claude 會自動載入對應技能，不需手動呼叫。
 
 ## Skills
 
@@ -109,9 +94,14 @@ rhino-plugin-dev/
 │   ├── rhinodoc-objects/
 │   ├── grasshopper-component/
 │   └── rhino-eto-ui/
+├── CHANGELOG.md
 ├── LICENSE
 └── README.md
 ```
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## License
 
